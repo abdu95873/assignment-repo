@@ -112,17 +112,17 @@
     height: 300px;
     margin: 125px 230px;
 
+    
+    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-image: url('/images/watch.png');
-    background-repeat: no-repeat;
+    background-blend-mode: multiply;
 
     border-radius: 8px;
 }
 
-.gradiant{
-    width: 1140px;
-    height: 300px;
-    margin: 125px 230px;
-    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 93, 34, 0) 100%) ;
+h1 {
+   
+    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 }
 
 .footer {
