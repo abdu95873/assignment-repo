@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+/* banner style */
+.banner {
+    width: 1600px;
+    height: 809px;
+    background-image: url(images/banner/banner1.png);
+}
+
+.banner-info {
+    text-align: right;
+    padding: 0 230px 0 0;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding: 216px 0 24px 845px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 0 32px 1000px;
+
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: 600;
+    font-size: 20px;
+ 
+}
+
+.last-year-failure {
+    display: flex;
+    margin-top: 165px;
+    align-items: center;
+    padding-left: 265px;
+    justify-content: space-between;
+    padding-bottom: 95px;
+
+}
+
+.section {
+    padding-left: 87px;
+    padding-right: 263px;
+
+}
+
+.section-img {
+    width: 569px;
+    height: 723.3px;
+}
+
+.section-titel {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.section-discription {
+    color: #444343;
+
+}
+
+.failure-list {
+    padding-top: 16px;
+    color: #444343;
+
+}
+
+.my-plans {
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+
+.my-plans-container {
+    gap: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 230px;
+}
+
+.plans-titel {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plans-discription {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.section-img-2 {
+    width: 1140px;
+    height: 300px;
+    margin: 125px 230px;
+
+    background-image: url('/images/watch.png');
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+}
+
+.gradiant{
+    width: 1140px;
+    height: 300px;
+    margin: 125px 230px;
+    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 93, 34, 0) 100%) ;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+
+}
+
+.footer-info {
+    padding: 130px 231px 130px 230px;
+    color: #FFFFFF;
+}
+.footer-title{
+    padding-bottom: 20px;
+}
+.footer-description{
+    padding-bottom: 20px;
+
+}
+.icon{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+.phone{
+    padding-top: 20px;
+
+}
+
+.subscribe {
+    padding: 130px 230px 240px 331px;
+
+}
+
+.subscribe-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.email {
+    width: 325px;
+    height: 64px;
+    padding-bottom: 16px;
+}
+input{
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    border-radius: 5px;
+}
+.btn-primary-two{
+    background-color:#FFFFFF;
+    color: #F15B22;;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: 600;
+    font-size: 20px;
+    
+    justify-content: center
