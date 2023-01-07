@@ -60,8 +60,14 @@
 }
 
 .section-img {
+   
+}
+.section-img-two{
+
     width: 569px;
     height: 723.3px;
+    padding-right: 100px;
+    padding-top: 200px;
 }
 
 .section-titel {
