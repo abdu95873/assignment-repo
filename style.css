@@ -9,7 +9,7 @@
 .banner {
     width: 1600px;
     height: 809px;
-    background-image: url(images/banner/banner1.png);
+    background-image: url(./images/banner/banner1.png);
 }
 
 .banner-info {
@@ -107,23 +107,21 @@
     color: #737272;
 }
 
-.section-img-2 {
+.section-gradient {
     width: 1140px;
     height: 300px;
     margin: 125px 230px;
-
-    
-    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-    background-image: url('/images/watch.png');
-    background-blend-mode: multiply;
-
     border-radius: 8px;
+    display: flex;
+    justify-items: center;
+    
+}
+.gradient{
+
+    background-image: url(./images/watch.png);
+
 }
 
-h1 {
-   
-    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-}
 
 .footer {
     display: flex;
