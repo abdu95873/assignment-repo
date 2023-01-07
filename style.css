@@ -40,7 +40,7 @@
     border-color: transparent;
     font-weight: 600;
     font-size: 20px;
- 
+
 }
 
 .last-year-failure {
@@ -77,8 +77,14 @@
 
 .failure-list {
     padding-top: 16px;
-    color: #444343;
+    color: #621010;
+    
 
+}
+.failure-list li{
+    text-decoration: none;
+    list-style: none;
+    
 }
 
 .my-plans {
@@ -114,12 +120,29 @@
     border-radius: 8px;
     display: flex;
     justify-items: center;
-    
+
 }
-.gradient{
+
+.gradient {
 
     background-image: url(./images/watch.png);
+    position: relative;
 
+}
+
+.title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-right: 717px;
+    padding-bottom: 24px;
+    padding-left: 54px;
+    position: absolute;
+}
+.title-btn{
+    background-color: #FFFFFF;
+    color: #F15B22;
 }
 
 
@@ -130,22 +153,26 @@
 }
 
 .footer-info {
-    padding: 130px 231px 130px 230px;
+    padding: 130px 0 130px 230px;
     color: #FFFFFF;
 }
-.footer-title{
+
+.footer-title {
     padding-bottom: 20px;
 }
-.footer-description{
+
+.footer-description {
     padding-bottom: 20px;
 
 }
-.icon{
+
+.icon {
     display: flex;
     padding-top: 20px;
     gap: 20px;
 }
-.phone{
+
+.phone {
     padding-top: 20px;
 
 }
@@ -167,19 +194,22 @@
     height: 64px;
     padding-bottom: 16px;
 }
-input{
+
+input {
     width: 100%;
     padding: 20px 0 20px 20px;
     border-radius: 5px;
 }
-.btn-primary-two{
-    background-color:#FFFFFF;
-    color: #F15B22;;
+
+.btn-primary-two {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    ;
     width: 160px;
     height: 64px;
     border-radius: 5px;
     border-color: transparent;
     font-weight: 600;
     font-size: 20px;
-    
+
     justify-content: center
